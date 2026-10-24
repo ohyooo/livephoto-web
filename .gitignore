@@ -1,0 +1,4 @@
+source/
+ci-output/
+.checks/
+.DS_Store

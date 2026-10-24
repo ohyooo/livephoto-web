@@ -1,0 +1,91 @@
+name: Deploy verified LivePhoto website
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+
+      - name: Verify every asset and successful source Web run
+        id: source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/verify-package.py
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+      - name: Reuse source browser test driver and pinned test tools
+        uses: actions/checkout@v7
+        with:
+          repository: ohyooo/LivePhoto
+          ref: ${{ steps.source.outputs.commit }}
+          path: source
+          persist-credentials: false
+
+      - name: Cache browser tools
+        uses: actions/cache@v6
+        with:
+          path: |
+            ~/.npm
+            ~/.cache/ms-playwright
+          key: livephoto-pages-browser-${{ runner.os }}-${{ hashFiles('source/scripts/web/package.json') }}
+
+      - name: Install existing pinned browser test dependencies
+        working-directory: source/scripts/web
+        run: |
+          npm install --ignore-scripts --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Cache stable fixture generator
+        uses: actions/cache@v6
+        with:
+          path: ${{ runner.tool_cache }}/livephoto-web-ffmpeg/n9.0
+          key: web-ffmpeg-n9.0-v1-${{ runner.os }}-${{ runner.arch }}
+
+      - name: Prepare synthetic fixture generator
+        working-directory: source
+        run: bash scripts/prepare-web-ffmpeg.sh
+
+      - name: Verify actual public website and generation in Chromium
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+        run: node scripts/smoke.mjs
+
+      - name: Preserve browser evidence without test media
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: github-pages-browser-evidence-${{ github.run_id }}
+          path: ci-output/
+          if-no-files-found: ignore
+          retention-days: 14
