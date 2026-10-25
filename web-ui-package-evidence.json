@@ -1,6 +1,6 @@
 {
-  "commit": "bb99878c363de034fda17723d99a8fbe67b3d8c3",
-  "run": "40164768092",
+  "commit": "7f182cf618082d79d35ae23f042f23983899acb2",
+  "run": "40165596679",
   "scope": "shared-compose-screen-browser-picker-local-core-download-no-server-processing",
   "kotlinRuntime": "wasmJs",
   "applicationWasm": [
@@ -47,8 +47,8 @@
     },
     {
       "path": "media/core-runtime.mjs",
-      "bytes": 3010,
-      "sha256": "31316b81f872e7ba5f2fc7e6238f3592d57e13f82f4f988d43bfda03e9b6c3c5"
+      "bytes": 3266,
+      "sha256": "e117d378fb0e0f6277ab37719e5d0b462b36afcb16f1ebdb755fa2e43222bbd1"
     },
     {
       "path": "media/engine-source.txt",
