@@ -1,13 +1,13 @@
 {
-  "commit": "7f182cf618082d79d35ae23f042f23983899acb2",
-  "run": "40165596679",
+  "commit": "59f8f1d6a3651377244955269b1f2d3a1b6c6e51",
+  "run": "40168001397",
   "scope": "shared-compose-screen-browser-picker-local-core-download-no-server-processing",
   "kotlinRuntime": "wasmJs",
   "applicationWasm": [
-    "livephoto-ui.9dfa7b8bc56279cf5d58.wasm"
+    "livephoto-ui.f210a85f9dba8a5dbb6c.wasm"
   ],
   "workerWasm": [
-    "worker/livephoto-worker.19a696410c1462b89f7f.wasm"
+    "worker/livephoto-worker.1512e3f9ef727ca8c546.wasm"
   ],
   "files": [
     {
@@ -16,14 +16,14 @@
       "sha256": "c2152f56f55f2bd978dff0705f38db5d9f3f09cde06a39f4998091cb1c962eaa"
     },
     {
-      "path": "livephoto-ui.9dfa7b8bc56279cf5d58.wasm",
+      "path": "livephoto-ui.f210a85f9dba8a5dbb6c.wasm",
       "bytes": 4092364,
-      "sha256": "5a6949af527a60efb3f6a4e6c4f90a1878cfcc8eb7875cce4c263768e743d39d"
+      "sha256": "83ae64dfd525319070e067aeec4bb6eee324683993c9e8526851cf76371c2bc6"
     },
     {
       "path": "livephoto-ui.js",
       "bytes": 925805,
-      "sha256": "b2c953b7907e8ef1bc7812345f17205b34f24f2fc452af6fca26bf4ac2e42901"
+      "sha256": "ccb1bdcb1d551bc7c7455ec95e6157fd38c29d100622e10a58f9c46feb4e4a4a"
     },
     {
       "path": "livephoto-ui.js.LICENSE.txt",
@@ -47,8 +47,13 @@
     },
     {
       "path": "media/core-runtime.mjs",
-      "bytes": 3266,
-      "sha256": "e117d378fb0e0f6277ab37719e5d0b462b36afcb16f1ebdb755fa2e43222bbd1"
+      "bytes": 3911,
+      "sha256": "5e0091aa770a36a54b772e0a9d729a794f3d650723a189951b8bff8e628f0163"
+    },
+    {
+      "path": "media/disk-worker.mjs",
+      "bytes": 3805,
+      "sha256": "b86cf230fb98bb6038097037aba2e9096a20df6766ef6a55ad300fcaa4faa02b"
     },
     {
       "path": "media/engine-source.txt",
@@ -72,48 +77,8 @@
     },
     {
       "path": "media/THIRD-PARTY.txt",
-      "bytes": 1933,
-      "sha256": "42542d722f3e37c8f06b2e9d8d1fae209d060d9988fa2a6efb147e0074b7764e"
-    },
-    {
-      "path": "media/vendor/ffmpeg-package.json",
-      "bytes": 1615,
-      "sha256": "7683753da6b5362d8ed172bf404842d740e3c24f83c0a36e7d89ef0372ad6995"
-    },
-    {
-      "path": "media/vendor/ffmpeg/classes.js",
-      "bytes": 9747,
-      "sha256": "7a829c898bdbc3a8806652a5502d9101178ce4e988a2c50b3abc1306ce4fc919"
-    },
-    {
-      "path": "media/vendor/ffmpeg/const.js",
-      "bytes": 1016,
-      "sha256": "9e3bc9dd84781c81daf459e2c46eeec815edac35089832681d9a9a0f383060d0"
-    },
-    {
-      "path": "media/vendor/ffmpeg/errors.js",
-      "bytes": 332,
-      "sha256": "619310d7ef5fe5fefa0a31927db862b7c291713cfef4d71753fa8aafd18f4db6"
-    },
-    {
-      "path": "media/vendor/ffmpeg/index.js",
-      "bytes": 58,
-      "sha256": "cad19572420f7ead17272082d9582ebaed7f2856e19875542f83daf8d25d3b5d"
-    },
-    {
-      "path": "media/vendor/ffmpeg/types.js",
-      "bytes": 295,
-      "sha256": "72f80e6fd44fcd18b55c9a0deb3bc70b9bb37480cf969045ca4521f5a11300f5"
-    },
-    {
-      "path": "media/vendor/ffmpeg/utils.js",
-      "bytes": 138,
-      "sha256": "8c2e0e16445f8d3a0acbb812f2c60541a92c88ed0bf9ffe96c52e7fb6c8b1d72"
-    },
-    {
-      "path": "media/vendor/ffmpeg/worker.js",
-      "bytes": 5085,
-      "sha256": "feff0ac937ea225e997e1fae997a74f8b8d572423a526da59eb56624b1f3cde7"
+      "bytes": 2001,
+      "sha256": "9a2951fa1e6941c1d33063c9c1972fa845280e8dd7d34f7597a11f0921efaf95"
     },
     {
       "path": "media/vendor/core/build.json",
@@ -141,19 +106,19 @@
       "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
     },
     {
-      "path": "worker/livephoto-worker.19a696410c1462b89f7f.wasm",
-      "bytes": 1460233,
-      "sha256": "c4da4fe8a2644ced9408cde9f266d8b3d9cd10dcd828db4848d19cb8077c2dad"
+      "path": "worker/livephoto-worker.1512e3f9ef727ca8c546.wasm",
+      "bytes": 1461112,
+      "sha256": "64dd4c6c8cd5a4d9a897f9eeebc1fb246a847b93c4f9a99ca08baa29673375b9"
     },
     {
       "path": "worker/livephoto-worker.js",
-      "bytes": 11804,
-      "sha256": "21388d549b86c7e487b21bf64f7aeee79458f7446c142a5ea7b566cd53f3a143"
+      "bytes": 12041,
+      "sha256": "49e2a008c25e10fca8488191820cba90b254f64fd3466fc34e8f9f186f20306b"
     },
     {
       "path": "worker/livephoto-worker.js.map",
-      "bytes": 37207,
-      "sha256": "117449a868d4af55c2e0072b5927cd7f3dbb3f4015e9b29ef1ab2d4b00e68bb5"
+      "bytes": 37620,
+      "sha256": "54af20f08c07144bd7c8267e7fee1e949d6d8ff4ae716c641ddbf4897dfc5431"
     }
   ]
 }
