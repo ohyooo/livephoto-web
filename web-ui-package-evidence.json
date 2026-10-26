@@ -1,13 +1,13 @@
 {
-  "commit": "59f8f1d6a3651377244955269b1f2d3a1b6c6e51",
-  "run": "40168001397",
+  "commit": "651d89b3558830bb409c9271d2a0503f06272eb7",
+  "run": "40247032484",
   "scope": "shared-compose-screen-browser-picker-local-core-download-no-server-processing",
   "kotlinRuntime": "wasmJs",
   "applicationWasm": [
-    "livephoto-ui.f210a85f9dba8a5dbb6c.wasm"
+    "livephoto-ui.ae7c7fab09a8ec409a9b.wasm"
   ],
   "workerWasm": [
-    "worker/livephoto-worker.1512e3f9ef727ca8c546.wasm"
+    "worker/livephoto-worker.0aefb0158c8773cdc1d5.wasm"
   ],
   "files": [
     {
@@ -16,14 +16,14 @@
       "sha256": "c2152f56f55f2bd978dff0705f38db5d9f3f09cde06a39f4998091cb1c962eaa"
     },
     {
-      "path": "livephoto-ui.f210a85f9dba8a5dbb6c.wasm",
-      "bytes": 4092364,
-      "sha256": "83ae64dfd525319070e067aeec4bb6eee324683993c9e8526851cf76371c2bc6"
+      "path": "livephoto-ui.ae7c7fab09a8ec409a9b.wasm",
+      "bytes": 4092361,
+      "sha256": "549a77639a9f73db6ec38ef5ec55441c1aec0f7c27787f3ca75920513464b469"
     },
     {
       "path": "livephoto-ui.js",
       "bytes": 925805,
-      "sha256": "ccb1bdcb1d551bc7c7455ec95e6157fd38c29d100622e10a58f9c46feb4e4a4a"
+      "sha256": "13aa465fb27c79096ef95f47bfa4b618998ea7ea0031342153932e66bc1209a9"
     },
     {
       "path": "livephoto-ui.js.LICENSE.txt",
@@ -36,24 +36,29 @@
       "sha256": "833b024cdee1838a40504c1d2581566210b41414e2455b6df8e53814a2b56031"
     },
     {
+      "path": "output-storage.mjs",
+      "bytes": 3247,
+      "sha256": "69761e96a7457719520762a07d2bb640c4d22c472caf9bfd8c90c00c9f0f70a8"
+    },
+    {
       "path": "skiko.038b81db9c40989b0001.wasm",
       "bytes": 8783992,
       "sha256": "8888eca6fff9a73ecdffba02379b52ba019b6f97c4006650b5124764cbf48fb6"
     },
     {
       "path": "ui-task-runtime.mjs",
-      "bytes": 3460,
-      "sha256": "544e16970fa83c617460bb23e738a8353cf8b11348ec5fcb793345381a13c343"
+      "bytes": 4317,
+      "sha256": "45b2d2806bcefa2325de67e3dcce1937676dc6bd089f36908301b51a6277c645"
     },
     {
       "path": "media/core-runtime.mjs",
-      "bytes": 3911,
-      "sha256": "5e0091aa770a36a54b772e0a9d729a794f3d650723a189951b8bff8e628f0163"
+      "bytes": 4069,
+      "sha256": "05abf983f1974ed8e7a843dd4338a29da40390aff8ccad8617e1311a76c2d572"
     },
     {
       "path": "media/disk-worker.mjs",
-      "bytes": 3805,
-      "sha256": "b86cf230fb98bb6038097037aba2e9096a20df6766ef6a55ad300fcaa4faa02b"
+      "bytes": 4052,
+      "sha256": "d673e66046a18c95ccd5d9f2250fe705159c446a10a801b47d371e72a38a7cef"
     },
     {
       "path": "media/engine-source.txt",
@@ -106,19 +111,19 @@
       "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
     },
     {
-      "path": "worker/livephoto-worker.1512e3f9ef727ca8c546.wasm",
-      "bytes": 1461112,
-      "sha256": "64dd4c6c8cd5a4d9a897f9eeebc1fb246a847b93c4f9a99ca08baa29673375b9"
+      "path": "worker/livephoto-worker.0aefb0158c8773cdc1d5.wasm",
+      "bytes": 1481160,
+      "sha256": "3ddda3a08e6f64c0a208bb2defbfe12a10b99f1a7557977a8ae95b7d8d8e4e20"
     },
     {
       "path": "worker/livephoto-worker.js",
-      "bytes": 12041,
-      "sha256": "49e2a008c25e10fca8488191820cba90b254f64fd3466fc34e8f9f186f20306b"
+      "bytes": 13098,
+      "sha256": "066ce48258771e997624d6d90251a4086c476b10b6057178fbb6c60132ec6027"
     },
     {
       "path": "worker/livephoto-worker.js.map",
-      "bytes": 37620,
-      "sha256": "54af20f08c07144bd7c8267e7fee1e949d6d8ff4ae716c641ddbf4897dfc5431"
+      "bytes": 39894,
+      "sha256": "3e71e33a09231b2c6cd1345ebe4fd60aebab6650f819f4fbd9f51b922160b0c2"
     }
   ]
 }
