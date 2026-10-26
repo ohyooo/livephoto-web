@@ -1,13 +1,13 @@
 {
-  "commit": "651d89b3558830bb409c9271d2a0503f06272eb7",
-  "run": "40247032484",
+  "commit": "6be65d90de38a6b268b80aecd681949f4d52eb8a",
+  "run": "40253616968",
   "scope": "shared-compose-screen-browser-picker-local-core-download-no-server-processing",
   "kotlinRuntime": "wasmJs",
   "applicationWasm": [
     "livephoto-ui.ae7c7fab09a8ec409a9b.wasm"
   ],
   "workerWasm": [
-    "worker/livephoto-worker.0aefb0158c8773cdc1d5.wasm"
+    "worker/livephoto-worker.ffddd26f1d5995dae144.wasm"
   ],
   "files": [
     {
@@ -111,14 +111,14 @@
       "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
     },
     {
-      "path": "worker/livephoto-worker.0aefb0158c8773cdc1d5.wasm",
+      "path": "worker/livephoto-worker.ffddd26f1d5995dae144.wasm",
       "bytes": 1481160,
-      "sha256": "3ddda3a08e6f64c0a208bb2defbfe12a10b99f1a7557977a8ae95b7d8d8e4e20"
+      "sha256": "10adcaed78d0775f2b05c2e320a16643be4a67945e31186d67ee3c47bdd48ef3"
     },
     {
       "path": "worker/livephoto-worker.js",
       "bytes": 13098,
-      "sha256": "066ce48258771e997624d6d90251a4086c476b10b6057178fbb6c60132ec6027"
+      "sha256": "f18b01f60f6d2bd394aadb1112cf3c7e3ab1dcacd5c1073e341283ba1e1c25c8"
     },
     {
       "path": "worker/livephoto-worker.js.map",
