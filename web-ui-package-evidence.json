@@ -1,6 +1,6 @@
 {
-  "commit": "dccc766452abb32320dd621acc05cc6dae260812",
-  "run": "40256045025",
+  "commit": "c0f20bb43e5f88a44ed77f920ef7890fdbdbcf58",
+  "run": "40257044123",
   "scope": "shared-compose-screen-browser-picker-local-core-download-no-server-processing",
   "kotlinRuntime": "wasmJs",
   "applicationWasm": [
