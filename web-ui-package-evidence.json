@@ -1,13 +1,13 @@
 {
-  "commit": "d26ff1bcbd8f2314ce60586b82f127a5c8a3ce5a",
-  "run": "40257577503",
+  "commit": "4e56f88b918cbfafaa227f374fe54b91ae4edaef",
+  "run": "40258881028",
   "scope": "shared-compose-screen-browser-picker-local-core-download-no-server-processing",
   "kotlinRuntime": "wasmJs",
   "applicationWasm": [
-    "livephoto-ui.ae7c7fab09a8ec409a9b.wasm"
+    "livephoto-ui.c214953969042915f1ed.wasm"
   ],
   "workerWasm": [
-    "worker/livephoto-worker.f8a90c965e7ea71d8416.wasm"
+    "worker/livephoto-worker.effdb28943a59599c418.wasm"
   ],
   "files": [
     {
@@ -16,14 +16,14 @@
       "sha256": "c2152f56f55f2bd978dff0705f38db5d9f3f09cde06a39f4998091cb1c962eaa"
     },
     {
-      "path": "livephoto-ui.ae7c7fab09a8ec409a9b.wasm",
-      "bytes": 4092361,
-      "sha256": "549a77639a9f73db6ec38ef5ec55441c1aec0f7c27787f3ca75920513464b469"
+      "path": "livephoto-ui.c214953969042915f1ed.wasm",
+      "bytes": 4092108,
+      "sha256": "78bbf1e313f4b84f02ad53fa5250850bb23eeab34e2a5baef2ef5811c670d5f5"
     },
     {
       "path": "livephoto-ui.js",
       "bytes": 925805,
-      "sha256": "13aa465fb27c79096ef95f47bfa4b618998ea7ea0031342153932e66bc1209a9"
+      "sha256": "e893ac8000c37cf7b6161c203b0e5e66ba5021e5b779425afe4096241a44c183"
     },
     {
       "path": "livephoto-ui.js.LICENSE.txt",
@@ -111,14 +111,14 @@
       "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
     },
     {
-      "path": "worker/livephoto-worker.f8a90c965e7ea71d8416.wasm",
-      "bytes": 1481160,
-      "sha256": "c73f04d7de4cf7d5245384d9fb5edd8e14a27923e1f89a965ddc72604a77a13b"
+      "path": "worker/livephoto-worker.effdb28943a59599c418.wasm",
+      "bytes": 1481150,
+      "sha256": "39601c96781982fcc4cb070206cfdb337090cf383f2304045d80f923c935a279"
     },
     {
       "path": "worker/livephoto-worker.js",
       "bytes": 13098,
-      "sha256": "7dfa63858b571a594909e11f37fb8337e77dd8b076c52035ae91e3bbe1bd1b5f"
+      "sha256": "39e85cea3b9c5064417ea4215e02e802febf53651e94bfa67f38f1127513894f"
     },
     {
       "path": "worker/livephoto-worker.js.map",
