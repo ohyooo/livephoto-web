@@ -1,10 +1,10 @@
 {
-  "commit": "800a610e4211b7a62775764ff6d541ba0fc098d4",
-  "run": "40261196188",
+  "commit": "5050b248f9d0fd7762af74c62ad58a37941e79da",
+  "run": "42334682737",
   "scope": "shared-compose-screen-browser-picker-local-core-download-no-server-processing",
   "kotlinRuntime": "wasmJs",
   "applicationWasm": [
-    "livephoto-ui.c214953969042915f1ed.wasm"
+    "livephoto-ui.48b7446e0848cb292f53.wasm"
   ],
   "workerWasm": [
     "worker/livephoto-worker.effdb28943a59599c418.wasm"
@@ -16,14 +16,14 @@
       "sha256": "c2152f56f55f2bd978dff0705f38db5d9f3f09cde06a39f4998091cb1c962eaa"
     },
     {
-      "path": "livephoto-ui.c214953969042915f1ed.wasm",
-      "bytes": 4092108,
-      "sha256": "78bbf1e313f4b84f02ad53fa5250850bb23eeab34e2a5baef2ef5811c670d5f5"
+      "path": "livephoto-ui.48b7446e0848cb292f53.wasm",
+      "bytes": 4053313,
+      "sha256": "738afbade867aa7959400e630f8da9e2a6099a68aa1fcf6362d9b05f08363690"
     },
     {
       "path": "livephoto-ui.js",
-      "bytes": 925805,
-      "sha256": "e893ac8000c37cf7b6161c203b0e5e66ba5021e5b779425afe4096241a44c183"
+      "bytes": 929995,
+      "sha256": "72a3da27411dfcefe7137286620941ec749c160cc759fe628c8c017eadda6b9f"
     },
     {
       "path": "livephoto-ui.js.LICENSE.txt",
@@ -32,8 +32,8 @@
     },
     {
       "path": "livephoto-ui.js.map",
-      "bytes": 1852314,
-      "sha256": "833b024cdee1838a40504c1d2581566210b41414e2455b6df8e53814a2b56031"
+      "bytes": 1858468,
+      "sha256": "8d3b95b53b045496cf5754ce33223e7cf5ec646e16787efa7859805661e707e3"
     },
     {
       "path": "output-storage.mjs",
@@ -41,14 +41,24 @@
       "sha256": "69761e96a7457719520762a07d2bb640c4d22c472caf9bfd8c90c00c9f0f70a8"
     },
     {
-      "path": "skiko.038b81db9c40989b0001.wasm",
-      "bytes": 8783992,
-      "sha256": "8888eca6fff9a73ecdffba02379b52ba019b6f97c4006650b5124764cbf48fb6"
+      "path": "skiko.6c56c39d16176f79727d.wasm",
+      "bytes": 7414882,
+      "sha256": "53150ae84bf182a4584e868620b46867485b7874a83a7ecd9f208f96e4280acc"
     },
     {
       "path": "ui-task-runtime.mjs",
       "bytes": 4317,
       "sha256": "45b2d2806bcefa2325de67e3dcce1937676dc6bd089f36908301b51a6277c645"
+    },
+    {
+      "path": "fonts/NotoSansSC-Regular.otf",
+      "bytes": 8331336,
+      "sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
     },
     {
       "path": "media/core-runtime.mjs",
@@ -99,16 +109,6 @@
       "path": "media/vendor/core/ffmpeg-core.wasm",
       "bytes": 16430745,
       "sha256": "f6b86654a1bd02f80e7cb23c35122de77f5e8f846073a67ab260f785cd90d082"
-    },
-    {
-      "path": "fonts/NotoSansSC-Regular.otf",
-      "bytes": 8331336,
-      "sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9"
-    },
-    {
-      "path": "fonts/OFL.txt",
-      "bytes": 4301,
-      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
     },
     {
       "path": "worker/livephoto-worker.effdb28943a59599c418.wasm",
